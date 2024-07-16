@@ -22,3 +22,30 @@
 # print(new_list)
 # x=lambda a,b : a+b
 # print(list(map(x,[1,2,3,4],[3,4,5,6])))
+# 2. Filter()........................
+# my_list=[20,30,40,40,50,60]
+# def new(n):
+#     if n>=30:
+#         return True
+# print(list(filter(new,my_list)))
+# my_list=[20,35,45,40,55,60]
+# def new(n):
+#     if n%2==0:
+#         return True
+# print(list(filter(new,my_list)))  
+# 3. Reduce().........................
+# import functools
+# my_list=[20,25,45,40,55,60]
+# def smallest(x,y):
+#     if x<y:
+#         return x
+#     else:
+#         return y 
+# print(functools.reduce(smallest,my_list))
+# my_list=[20,25,45,40,55,60]
+# def greater(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
+# print(functools.reduce(greater,my_list))
