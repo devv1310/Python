@@ -72,9 +72,10 @@
 # print('file_close=',f.closed)
 # f.close()
 # print('file_close=',f.closed)
-f=open('n7.txt','w')
-f.write("Hello,This is Devanshu \n I am from Sagar \n")
-Data=(' this is python \n Timming is 1:30 \n')
-f.writelines(Data)
-f.writable
+# f=open('n7.txt','w')
+# f.write("Hello,This is Devanshu \n I am from Sagar \n")
+# Data=(' this is python \n Timming is 1:30 \n')
+# f.writelines(Data)
+# f.writable
+# f.close()
 
