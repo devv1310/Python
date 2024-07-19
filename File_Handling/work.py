@@ -97,3 +97,11 @@
 # print(data)
 # f1.close()
 # f.close
+f=open('n9.txt','a+')
+data=("hellow \n","Nishant Ludo")
+f.writelines(data)
+print((f.tell))
+print(f.read())
+f.seek(0)
+print(f.tell)
+print(f.read())
