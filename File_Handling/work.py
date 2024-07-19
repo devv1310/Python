@@ -72,10 +72,28 @@
 # print('file_close=',f.closed)
 # f.close()
 # print('file_close=',f.closed)
+# Write()-----------------------------------------
 # f=open('n7.txt','w')
 # f.write("Hello,This is Devanshu \n I am from Sagar \n")
 # Data=(' this is python \n Timming is 1:30 \n')
 # f.writelines(Data)
 # f.writable
 # f.close()
-
+# Read()--------------------------------------------
+# read() -> read all content
+# read(n) -> n is Character
+# readlines()
+# f=open('n8.txt','a')
+# data=('hello im devanshu \n','full stack python \n')
+# f.writelines(data)
+# print(f.tell())
+# print(f.seek())
+# f.readable()
+# f1=open('n8.txt','r')
+# data=f1.read(10)
+# data=f1.readable()
+# data=f1.readlines()
+# data=f1.readline()
+# print(data)
+# f1.close()
+# f.close
