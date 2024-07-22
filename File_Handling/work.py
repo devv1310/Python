@@ -97,11 +97,30 @@
 # print(data)
 # f1.close()
 # f.close
-f=open('n9.txt','a+')
-data=("hellow \n","Nishant Ludo")
-f.writelines(data)
-print((f.tell))
-print(f.read())
-f.seek(0)
-print(f.tell)
-print(f.read())
+# f=open('n9.txt','a+')
+# data=("hellow \n","Nishant Ludo")
+# f.writelines(data)
+# print((f.tell))
+# print(f.read())
+# f.seek(0)
+# print(f.tell)
+# print(f.read())
+# ________________NEXT_________________________________
+# seek(__,__)
+#         |___0 -> defualt
+#         |___1 ->
+#         |___2 ->
+# f=open('n10.txt','rb')
+# data=("hello \n","im devanshu \n","full stack dev")
+# f.writelines(data)
+# print(f.tell())
+# print(f.read(6))
+# print(f.tell())
+# print(f.seek(5,1))
+# print(f.tell()) 
+# print(f.read(10))
+# print(f.tell())
+# print(f.seek(-6,2))
+# print(f.read())
+# seek curser ko move krna li leya use krta hai
+# tell curser ka current position check krna ki leya use hota ha
