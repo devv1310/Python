@@ -33,8 +33,12 @@
 class Student:
     x=10
     y=20
-    def display():
+    def display(self):
         print("hello")
+    @staticmethod
     def show(): 
         print("welcome")
+obj=Student()
+obj.display()
+obj.show()
 print(__dict__(Student)) 
