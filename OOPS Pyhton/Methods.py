@@ -58,3 +58,4 @@ obj.details('Dev','Sagar')
 obj.update_price(15000)
 obj.details('Dev','Sagar')
 
+
