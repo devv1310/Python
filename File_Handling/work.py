@@ -117,7 +117,7 @@
 # print(f.read(6))
 # print(f.tell())
 # print(f.seek(5,1))
-# print(f.tell()) 
+# print(f.tell()) history
 # print(f.read(10))
 # print(f.tell())
 # print(f.seek(-6,2))

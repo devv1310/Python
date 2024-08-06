@@ -58,12 +58,12 @@
 
 # append(value) #last m add hoga
 
-#lis=[2,3,4]
-#print(lis)
-#lis.append(98)
-#print(lis)
-#lis.append(["apple","banana"])
-#print(lis)
+# lis=[2,3,4]
+# print(lis)
+# lis.append(98)
+# print(lis)
+# lis.append(["apple","banana"])
+# print(lis)
 
 #extend (iterable)---->return none list hi pass krni h
 #extend(list/tupler)
@@ -81,12 +81,11 @@
 #also create a seperate list for even and odd numbers.
 
 # lis=[]
-
 # n=int(input("enter any range"))
 # for i in range(n):
 #     num=int(input("enter no."))
 #     lis.append(num)
-# print(lis)
+#     print(lis)
 
 # index() return index number
 #index(value,start,end)
