@@ -7,3 +7,4 @@ class c1(p1):
 obj=c1()
 obj.display()
 # obj.show()
+
