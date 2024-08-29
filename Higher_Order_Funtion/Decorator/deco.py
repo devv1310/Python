@@ -52,3 +52,4 @@ var1 = fun1(5)
 var2 = var1(10)
 
 print(var2)
+
