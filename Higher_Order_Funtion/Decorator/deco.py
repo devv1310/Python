@@ -51,5 +51,5 @@ def fun1(num):
 var1 = fun1(5)
 var2 = var1(10)
 
-print(var2)
+#print(var2)
  
